@@ -6,7 +6,8 @@
       "marketing",
       "developers"
     ],
-    "start_url": "index.html?utm_source=homescreen&lang=en",
+    "start_url": "./",
+    "scope": ".",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#fff",
