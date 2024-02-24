@@ -14,23 +14,23 @@
     "description": "Thintry is an advertising agency. We provide web development, UI/UX design, digital marketing, and SEO services.",
     "icons": [
       {
-        "src": "./src/static/android-chrome-192x192.png",
+        "src": "https://thintryin.github.io/thintry-progress/src/static/android-chrome-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "./src/static/android-chrome-512x512.png",
+        "src": "https://thintryin.github.io/thintry-progress/src/static/android-chrome-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       },
       {
-        "src": "./src/static/android-chrome-192x192-maskable.png",
+        "src": "https://thintryin.github.io/thintry-progress/src/static/android-chrome-192x192-maskable.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "maskable"
       },
       {
-        "src": "./src/static/android-chrome-512x512-maskable.png",
+        "src": "https://thintryin.github.io/thintry-progress/src/static/android-chrome-512x512-maskable.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
