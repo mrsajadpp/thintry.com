@@ -2378,7 +2378,7 @@ ol {
 
 .top-bar-logo-img {
   width: 140px;
-  /* height: 61px; */
+  /* height: auto; */
 }
 
 .top-bar-nav-link {
