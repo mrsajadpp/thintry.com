@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-domain="thintry.com" data-wf-page="639c466f35742c372d4aeef6"
-  data-wf-site="605b35e7484917a2d4dd0a5f">
+<html data-wf-domain="thintry.com" data-wf-page="639c466f35742c372d4aeef6" data-wf-site="605b35e7484917a2d4dd0a5f">
 
 <head>
   <!-- Character Encoding -->
@@ -834,7 +833,18 @@
         document.querySelectorAll('.body').forEach(target => target.classList.remove('no-scroll'));
       });
     }
+
+    window.addEventListener('scroll', function () {
+      var topBar = document.querySelector('.top-bar');
+      if (window.scrollY >= window.innerHeight) {
+        topBar.style.backgroundColor = '#19b0cf';
+      } else {
+        topBar.style.backgroundColor = 'transparent'; // Reset to initial background color
+      }
+    });
+
   </script>
+
 </body>
 
 </html>
