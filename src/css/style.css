@@ -1085,6 +1085,12 @@ textarea.w-input, textarea.w-select {
   margin-left: 6px;
 }
 
+.line{
+  display: inline;
+  background-color: #49ba8c !important;
+  font-size: 20px;
+}
+
 .w-widget-twitter-count-shim:not(.w--vertical):before, .w-widget-twitter-count-shim:not(.w--vertical):after {
   content: " ";
   height: 0;
@@ -3136,8 +3142,8 @@ ol {
 }
 
 .footer-wrap-logo-img {
-  width: auto;
-  height: auto;
+  width: 256px;
+  height: auto
 }
 
 .footer-wrap-info-link {
@@ -4188,6 +4194,7 @@ ol {
 .wwa-hero-wrap-gallery-item.item-2 {
   overflow: hidden;
   transform: translate(-80px, 80px);
+  width: 26%;
 }
 
 .wwa-hero-gallery-img {
@@ -7549,4 +7556,8 @@ ol {
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+}
+
+.rmv, .client-section,.logo-section{
+  display: none;
 }
