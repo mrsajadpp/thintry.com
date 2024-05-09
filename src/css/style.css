@@ -1087,7 +1087,7 @@ textarea.w-input, textarea.w-select {
 
 .line{
   display: inline;
-  background-color: #49ba8c !important;
+  background-color: #EA4878 !important;
   font-size: 20px;
 }
 
@@ -2150,7 +2150,7 @@ ol {
 .hero-container-content {
   width: 100%;
   height: auto;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   flex-direction: column;
   flex: 1;
   justify-content: center;
@@ -2319,7 +2319,7 @@ ol {
   bottom: auto;
   left: 0%;
   right: 0%;
-  /* background: #49ba8c; */
+  /* background: #EA4878; */
   height: 113px !important;
   backdrop-filter: blur(5px);
 }
@@ -2341,7 +2341,7 @@ ol {
 }
 
 .hero-wrap.home-hero {
-  background-color: #49ba8c;
+  background-color: #EA4878;
 }
 
 .hero-indicator {
@@ -2432,7 +2432,7 @@ ol {
 
 .cta-button {
   color: #000;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   border: 1px solid #000;
   border-radius: 30px;
   justify-content: center;
@@ -2449,7 +2449,7 @@ ol {
 
 .cta-button.yellow {
   min-width: auto;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -3050,7 +3050,7 @@ ol {
 }
 
 .footer-wrap {
-  background-color: #49ba8c;
+  background-color: #EA4878;
   /* margin: 23px; */
 }
 
@@ -3175,7 +3175,7 @@ ol {
 .footer-form-text {
   height: 60px;
   min-width: 330px;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   border: 1px solid #000;
   border-right: 0 #000;
 }
@@ -3244,7 +3244,7 @@ ol {
   z-index: 998;
   width: 100%;
   height: 100vh;
-  background-color: #09b598;
+  background-color: #EA4878;
   flex-direction: column;
   display: none;
   position: fixed;
@@ -3488,7 +3488,7 @@ ol {
   width: 100%;
   height: 100vh;
   min-height: 1100px;
-  background-color: #09b598;
+  background-color: #EA4878;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -3661,7 +3661,7 @@ ol {
 
 .form-cta-button {
   color: #000;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   border: 1px solid #000;
   border-radius: 40px;
   padding-left: 30px;
@@ -3701,7 +3701,7 @@ ol {
 .wwd-hero-wrap {
   width: 100%;
   height: 100vh;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   justify-content: flex-start;
   align-items: center;
   display: flex;
@@ -3835,7 +3835,7 @@ ol {
 
 .cta-button-2.yellow {
   cursor: pointer;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   padding-left: 35px;
   padding-right: 35px;
   display: flex;
@@ -4230,7 +4230,7 @@ ol {
 
 .cta-button-yellow {
   color: #000;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   border: 1px solid #000;
   border-radius: 30px;
   padding: 13px 35px;
@@ -4276,7 +4276,7 @@ ol {
 
 .wwb-section-wrap {
   width: 100%;
-  background-color: #09b598;
+  background-color: #EA4878;
   position: relative;
   overflow: hidden;
 }
@@ -4810,7 +4810,7 @@ ol {
 }
 
 .right-arrow {
-  background-color: #09b598;
+  background-color: #EA4878;
 }
 
 .client-name-block {
@@ -4860,7 +4860,7 @@ ol {
   height: 100vh;
   max-height: 100%;
   max-width: 100%;
-  background-color: #09b598;
+  background-color: #EA4878;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -4890,7 +4890,7 @@ ol {
 
 .cta-button-404 {
   color: #000;
-  background-color: #49ba8c;
+  background-color: #EA4878;
   border: 1px solid #000;
   border-radius: 30px;
   justify-content: center;
