@@ -276,7 +276,7 @@ html.w-mod-touch * {
   color: #fff;
   line-height: inherit;
   cursor: pointer;
-  background-color: #3898ec;
+  background-color: #E76963;
   border: 0;
   border-radius: 0;
   padding: 9px 15px;
@@ -542,7 +542,7 @@ label {
 }
 
 .w-input:focus, .w-select:focus {
-  border-color: #3898ec;
+  border-color: #E76963;
   outline: 0;
 }
 
@@ -2961,7 +2961,7 @@ ol {
 .background-blue {
   width: 70%;
   height: 100%;
-  background-color: #19b0cf;
+  background-color: #E76963;
   border: 1px solid #000;
   position: absolute;
   right: -5%;
@@ -3912,7 +3912,7 @@ ol {
 }
 
 .wfu-wrap {
-  background-color: #19b0cf;
+  background-color: #E76963;
 }
 
 .wfu-intro-wrap {
@@ -5544,7 +5544,7 @@ ol {
 }
 
 .logo-wrap {
-  background-color: #19b0cf;
+  background-color: #E76963;
   padding-top: 50px;
 }
 
