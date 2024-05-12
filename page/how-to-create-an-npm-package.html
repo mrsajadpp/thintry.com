@@ -42,7 +42,8 @@
     <meta
         content="Learn step-by-step how to create an NPM package from scratch, including installing Node.js, initializing NPM in your project, coding your package, and publishing it to the NPM registry."
         property="og:description" /> <!-- Description for Open Graph -->
-    <meta content="https://thintry.com/src/img/article/how-to-create-an-npm-package/how-to-create-an-npm-package.webp" property="og:image" />
+    <meta content="https://thintry.com/src/img/article/how-to-create-an-npm-package/how-to-create-an-npm-package.webp"
+        property="og:image" />
     <!-- Image for Open Graph -->
     <meta property="og:type" content="article" /> <!-- Type of content for Open Graph, in this case, it's a website -->
 
@@ -52,7 +53,8 @@
     <meta
         content="Learn step-by-step how to create an NPM package from scratch, including installing Node.js, initializing NPM in your project, coding your package, and publishing it to the NPM registry."
         property="twitter:description" /> <!-- Description for Twitter Card -->
-    <meta content="https://thintry.com/src/img/article/how-to-create-an-npm-package/how-to-create-an-npm-package.webp" property="twitter:image" />
+    <meta content="https://thintry.com/src/img/article/how-to-create-an-npm-package/how-to-create-an-npm-package.webp"
+        property="twitter:image" />
     <!-- Image for Twitter Card -->
     <meta content="summary_large_image" name="twitter:card" />
     <!-- Type of Twitter Card, in this case, it's a large image summary -->
@@ -201,6 +203,7 @@
 
         p {
             margin: 0 0 1.5em;
+            font-family: Lato, sans-serif;
         }
 
         code {
@@ -424,44 +427,44 @@
                     already exist (or that the names are too similar).</p>
                 <h2>How to Create a NPM Package?</h2>
                 <p>Follow the steps below to create your package. </p>
-               
-                    <h3>1. Install Node.js</h3>
-                    <p>Installing Node.js should be your first step if it isn't already. To get Node.js and install it,
-                        go to the official <a href="https://nodejs.org/en">website</a>. Node.js is pre-installed with
-                        NPM.</p>
-                    <h3>3. Initialize NPM in Your Project</h3>
-                    <p>To actually do this, go to your project's root directory and execute the following command:</p>
-                    <script src="https://gist.github.com/mrsajadpp/9b7449dd783cfedf15f25efaff6b6c18.js"></script>
 
-                    <h4>Explanation:</h4>
-                    <p><strong>npm init</strong> is a command used to initialize a new Node.js project and create a
-                        `package.json` file, which is used to manage project dependencies and metadata.</p>
-                    <p>When you run <strong>npm init</strong>, it will prompt you to enter various details about your
-                        project, such as:</p>
-                    <ul>
-                        <li><strong>package name:</strong> The name of your project. This is usually lowercase and may
-                            include hyphens.</li>
-                        <li><strong>version:</strong> The initial version of your project.</li>
-                        <li><strong>description:</strong> A brief description of your project.</li>
-                        <li><strong>entry point:</strong> The main JavaScript file that will be executed when your
-                            project is run.</li>
-                        <li><strong>test command:</strong> The command to run your project's tests, if any.</li>
-                        <li><strong>git repository:</strong> The URL of your project's Git repository.</li>
-                        <li><strong>keywords:</strong> An array of keywords that describe your project.</li>
-                        <li><strong>author:</strong> The author of the project.</li>
-                        <li><strong>license:</strong> The license under which your project is distributed.</li>
-                    </ul>
-                    <p>After you've entered these details, npm will generate a `package.json` file based on your inputs.
-                    </p>
+                <h3>1. Install Node.js</h3>
+                <p>Installing Node.js should be your first step if it isn't already. To get Node.js and install it,
+                    go to the official <a href="https://nodejs.org/en">website</a>. Node.js is pre-installed with
+                    NPM.</p>
+                <h3>3. Initialize NPM in Your Project</h3>
+                <p>To actually do this, go to your project's root directory and execute the following command:</p>
+                <script src="https://gist.github.com/mrsajadpp/9b7449dd783cfedf15f25efaff6b6c18.js"></script>
 
-                    <h3>4. Code your NPM Package</h3>
-                    <p>Now that you've initialized your project, you can start coding your package. This involves
-                        creating the necessary JavaScript files, defining your package's functionality, and implementing
-                        any dependencies or external libraries.</p>
-                    <script src="https://gist.github.com/mrsajadpp/da741c3725e6e1f47ff5e7d4f4456726.js"></script>
-                    <p>After creating your function, you should export it like in the example above. That way, anyone
-                        who downloads your package can load and use it in their code.</p>
-               
+                <h4>Explanation:</h4>
+                <p><strong>npm init</strong> is a command used to initialize a new Node.js project and create a
+                    `package.json` file, which is used to manage project dependencies and metadata.</p>
+                <p>When you run <strong>npm init</strong>, it will prompt you to enter various details about your
+                    project, such as:</p>
+                <ul>
+                    <li><strong>package name:</strong> The name of your project. This is usually lowercase and may
+                        include hyphens.</li>
+                    <li><strong>version:</strong> The initial version of your project.</li>
+                    <li><strong>description:</strong> A brief description of your project.</li>
+                    <li><strong>entry point:</strong> The main JavaScript file that will be executed when your
+                        project is run.</li>
+                    <li><strong>test command:</strong> The command to run your project's tests, if any.</li>
+                    <li><strong>git repository:</strong> The URL of your project's Git repository.</li>
+                    <li><strong>keywords:</strong> An array of keywords that describe your project.</li>
+                    <li><strong>author:</strong> The author of the project.</li>
+                    <li><strong>license:</strong> The license under which your project is distributed.</li>
+                </ul>
+                <p>After you've entered these details, npm will generate a `package.json` file based on your inputs.
+                </p>
+
+                <h3>4. Code your NPM Package</h3>
+                <p>Now that you've initialized your project, you can start coding your package. This involves
+                    creating the necessary JavaScript files, defining your package's functionality, and implementing
+                    any dependencies or external libraries.</p>
+                <script src="https://gist.github.com/mrsajadpp/da741c3725e6e1f47ff5e7d4f4456726.js"></script>
+                <p>After creating your function, you should export it like in the example above. That way, anyone
+                    who downloads your package can load and use it in their code.</p>
+
                 <h2>How to Publish Your NPM Package</h2>
                 <p>Once you've coded and tested your package, it's time to share it with the world by publishing it on
                     the NPM registry.</p>
