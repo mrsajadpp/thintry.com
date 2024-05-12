@@ -347,7 +347,21 @@
       </div>
     </div>
   </div>
-  <div style="height: 90px;"></div>
+  <style>
+    @media only screen and (max-width: 899px) {
+      .mobile-view {
+        height: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .mobile-view {
+        height: 90px;
+      }
+    }
+  </style>
+
+  <div class="mobile-view"></div>
 
   <div class="content">
     <div class="cont-cont">
