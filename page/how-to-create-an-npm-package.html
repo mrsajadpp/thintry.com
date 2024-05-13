@@ -232,7 +232,16 @@
 
         .cont-cont {
             display: flex;
-            justify-content: center;
+            justify-content: start;
+            margin-left: 154px;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .cont-cont {
+                display: flex;
+                justify-content: center !important;
+                margin-left: 0px !important;
+            }
         }
 
         .terms {
